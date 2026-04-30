@@ -1,3 +1,16 @@
+
+This screen provides a centralized overview of the entire internship lifecycle. It displays key metrics such as total candidates, average AI score, SLA alerts, and pending onboarding tasks.
+The core component is a pipeline (Kanban-style view) that visually tracks candidates across stages like Applied, Shortlisted, and Selected. Each candidate card includes role, application date, and AI score, enabling quick decision-making.
+An activity feed highlights real-time updates such as onboarding completion, NDA signing, and SLA risks, ensuring transparency and proactive management.
+
+This screen provides a detailed, AI-powered evaluation of an individual candidate. It includes a resume preview alongside structured AI insights such as extracted skills, experience summary, strengths, and weaknesses.
+A key highlight is the AI-generated score and explanation (“Why Selected”), which ensures transparency and supports data-driven decision-making.
+Action buttons like Shortlist, Reject, and Hold allow recruiters to take immediate action based on AI insights.
+
+
+
+
+
 Perfect — this is exactly what I needed. Now I’ll fill YOUR exact template slides with content, ready to copy-paste.
 I’ll go slide-by-slide based on your images 👇
 🟥 SLIDE 1: Problem Statement
