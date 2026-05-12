@@ -17,3 +17,20 @@ Description:
 3) Dropping a mail to the Business users.
 
 Additional Comments : This is a ticket created for tracking the daily health checks of Lawtrac Application.
+
+
+Hello GSD Team,<br>
+Kindly create a ticket with the below details.<br><br>
+
+<b>Category:</b> Cannot find what you're looking for<br>
+<b>Request Type:</b> GTS Request<br>
+<b>Request Area:</b> Application<br>
+
+<b>Short Description:</b> GTS – General Request || UKLD || Lawtrac || Daily Health Check Monitoring || Date: @{formatDateTime(convertTimeZone(utcNow(),'UTC','India Standard Time'),'dd MMM yyyy')}<br>
+
+<b>Description:</b><br>
+1) Application health check<br>
+2) FIM Job verification<br>
+3) Email to business users<br>
+
+<b>Additional Comments:</b> Daily health check tracking for Lawtrac application.<br>
