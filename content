@@ -1,1 +1,19 @@
-@{formatDateTime(convertTimeZone(utcNow(),'UTC','India Standard Time'),'dd MMM yyyy')}  - 12 May 2026
+@{formatDateTime(convertTimeZone(utcNow(),'UTC','India Standard Time'),'dd MMM yyyy')}
+
+Hello GSD Team,
+Kindly create a Ticket according to the content given below.
+
+Category: Cannot find what you're looking for
+
+Is your request related to GTS or Global Service Desk? : GTS Request
+
+Request Area: Application
+
+Short Description: GTS – General Request || UKLD || Lawtrac|| Daily Health Check Monitoring for AMS Team || Date: @{formatDateTime(convertTimeZone(utcNow(),'UTC','India Standard Time'),'dd MMM yyyy')}
+
+Description:
+1) Check if the application is up and working fine.
+2) Checking FIM Job
+3) Dropping a mail to the Business users.
+
+Additional Comments : This is a ticket created for tracking the daily health checks of Lawtrac Application.
