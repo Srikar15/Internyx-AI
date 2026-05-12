@@ -34,3 +34,82 @@ Kindly create a ticket with the below details.<br><br>
 3) Email to business users<br>
 
 <b>Additional Comments:</b> Daily health check tracking for Lawtrac application.<br>
+
+
+Table:
+Hello GSD Team,<br><br>
+
+Kindly create a ticket with the following details:<br><br>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; font-family: Arial; font-size: 13px;">
+  
+  <tr style="background-color:#f2f2f2;">
+    <td><b>Category</b></td>
+    <td>Cannot find what you're looking for</td>
+  </tr>
+
+  <tr>
+    <td><b>Request Type</b></td>
+    <td>GTS Request</td>
+  </tr>
+
+  <tr style="background-color:#f9f9f9;">
+    <td><b>Request Area</b></td>
+    <td>Application</td>
+  </tr>
+
+  <tr>
+    <td><b>Short Description</b></td>
+    <td>
+      GTS – General Request || UKLD || Lawtrac || Daily Health Check Monitoring for AMS Team <br>
+      <b>Date:</b> @{formatDateTime(convertTimeZone(utcNow(),'UTC','India Standard Time'),'dd MMM yyyy')}
+    </td>
+  </tr>
+
+  <tr style="background-color:#f9f9f9;">
+    <td><b>Description</b></td>
+    <td>
+      1) Check if the application is up and working fine.<br>
+      2) Checking FIM Job<br>
+      3) Dropping a mail to the business users.
+    </td>
+  </tr>
+
+  <tr>
+    <td><b>Additional Comments</b></td>
+    <td>
+      This ticket is created for tracking the daily health checks of the Lawtrac Application.
+    </td>
+  </tr>
+
+</table>
+
+<br>
+Thanks,<br>
+Srikar
+
+
+
+Normal-
+Hello GSD Team,<br>
+<br>
+Kindly create a ticket according to the content given below.<br>
+<br>
+
+<b>Category:</b> Cannot find what you're looking for<br>
+<b>Is your request related to GTS or Global Service Desk?</b> GTS Request<br>
+<b>Request Area:</b> Application<br>
+
+<br>
+<b>Short Description:</b><br>
+GTS – General Request || UKLD || Lawtrac || Daily Health Check Monitoring for AMS Team || Date: @{formatDateTime(convertTimeZone(utcNow(),'UTC','India Standard Time'),'dd MMM yyyy')}<br>
+
+<br>
+<b>Description:</b><br>
+1) Check if the application is up and working fine.<br>
+2) Checking FIM Job<br>
+3) Dropping a mail to the business users.<br>
+
+<br>
+<b>Additional Comments:</b><br>
+This is a ticket created for tracking the daily health checks of the Lawtrac Application.<br>
