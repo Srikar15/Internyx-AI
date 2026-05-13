@@ -9,3 +9,6 @@
 
 condition:
 length(body('Filter_array'))
+
+
+length(body('Get_emails_(V3)')?['value'])
