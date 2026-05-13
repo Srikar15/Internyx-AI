@@ -1,14 +1,25 @@
-@greaterOrEquals(
-  item()?['receivedDateTime'],
-  convertTimeZone(
-    concat(formatDateTime(utcNow(),'yyyy-MM-dd'),'T07:00:00'),
-    'India Standard Time',
-    'UTC'
+@and(
+  greaterOrEquals(
+    item()?['receivedDateTime'],
+    convertTimeZone(
+      concat(formatDateTime(utcNow(),'yyyy-MM-dd'),'T07:00:00'),
+      'India Standard Time',
+      'UTC'
+    )
+  ),
+  lessOrEquals(
+    item()?['receivedDateTime'],
+    convertTimeZone(
+      concat(formatDateTime(utcNow(),'yyyy-MM-dd'),'T07:30:00'),
+      'India Standard Time',
+      'UTC'
+    )
   )
 )
 
 condition:
-length(body('Filter_array'))
+expression length(body('Filter_array'))
+
 
 
 length(body('Get_emails_(V3)')?['value'])
