@@ -1,3 +1,10 @@
 Job DWH_ETL which loads data from BDX to BDX_DWH db is success
 
 Job DWH_ETL which loads data from BDX to BDX_DWH db is in failed state, please check
+
+
+yes condition: contains(toLower(triggerOutputs()?['body/Body']), 'is success')
+
+no condition: contains(toLower(triggerOutputs()?['body/Body']), 'failed state')
+
+
