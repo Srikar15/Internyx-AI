@@ -28,3 +28,27 @@ Subject : No FIM File To Process
 Content: No FIM File To Process
 
 
+
+compose:
+last(
+split(
+first(
+split(
+body('When_a_new_email_arrives_(V3)')?['Body'],
+' Personnel import data was found to have errors'
+)
+),
+'The following '
+)
+)
+
+message - 
+
+🟢 FIM Job Status : SUCCESS
+
+Personnel Inserted / Updated successfully.
+
+Personnel Import Errors : @{outputs('Compose')}
+
+Please review if error count is unusually high.
+
