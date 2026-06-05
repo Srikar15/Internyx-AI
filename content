@@ -1,10 +1,25 @@
-Job DWH_ETL which loads data from BDX to BDX_DWH db is success
+Mail content:
 
-Job DWH_ETL which loads data from BDX to BDX_DWH db is in failed state, please check
+Mail 1 -
+from : FIMdonotreply@axaxl.com
+Subject: FIM to Lawtrac Key Personnel Updated - Termination Date
+
+Mail 2 -
+from : FIMdonotreply@axaxl.com
+Subject : FIM to Lawtrac Key Personnel Updated
+Content:
+[CAUTION EXTERNAL]
 
 
-yes condition: toLower(triggerOutputs()?['body/Body'])  is success
+Cleanup of KeyPersonnel records took place. Removed: 8 
 
-no condition: toLower(triggerOutputs()?['body/Body'])   failed state
+14 Personnel records were inserted.
+
+17285 Personnel records were updated.
+
+29978 Personnel records were found to have a Termination Date.
+
+The following 160 Personnel import data was found to have errors: 
+
 
 
