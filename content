@@ -52,3 +52,19 @@ Personnel Import Errors : @{outputs('Compose')}
 
 Please review if error count is unusually high.
 
+new xp
+
+
+trim(
+first(
+split(
+last(
+split(
+triggerBody()?['bodyPreview'],
+'The following '
+)
+),
+' Personnel import data was found to have errors'
+)
+)
+)
